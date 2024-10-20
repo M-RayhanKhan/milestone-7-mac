@@ -4,3 +4,9 @@
     margin: 20px;
     border-radius: 15px;
 }
+
+.visited{
+    background-color: blue;
+    color: black;
+    font-family: 800;
+}
