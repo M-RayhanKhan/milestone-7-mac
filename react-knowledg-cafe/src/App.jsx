@@ -14,13 +14,17 @@ const handleBookmarks = blog => {
   setBookmarks(newBooks)
 }
 
-const handleReadTime = time => {
- setReadTime(readTime+time)
+const handleReadTime = (time, id) => {
+ const newTime = readTime + time
+ setReadTime(newTime)
+ const remainingBookmarks = bookmarks.filter(bookmark => bookmark.id !== id);
+ setBookmarks(remainingBookmarks)
+
 }
   return (
     <>
     <Navbar></Navbar>
-      <div className='md:flex md:max-w-7xl mx-auto'>
+      <div className='lg:flex lg:max-w-5xl mx-auto'>
         <Blogs handleBookmarks={handleBookmarks} handleReadTime={handleReadTime}></Blogs>
         <Bookmarks bookmarks={bookmarks} readTime={readTime}></Bookmarks>
       </div>

@@ -1,0 +1,112 @@
+  
+  [
+    {
+      "recipe_img": "https://img.freepik.com/premium-photo/person-cutting-pizza-with-pizza-cutter_852340-42374.jpg?ga=GA1.1.1974064280.1729565945&semt=ais_hybrid",
+      "recipe_id": 1,
+      "name": "Creamy Tomato Basil Soup",
+      "short_description": "A rich, creamy tomato soup with fresh basil and garlic.",
+      "ingredients": [
+        "tomatoes",
+        "basil",
+        "garlic",
+        "onion",
+        "vegetable broth",
+        "cream",
+        "olive oil",
+        "parmesan cheese"
+      ],
+      "preparing_time": 30,
+      "calories": 320
+    },
+    {
+      "recipe_img": "https://img.freepik.com/premium-photo/massaman-curry-hearty-vegetable-stew-dark-ceramic-bowl-garnished-with-fresh-parsley_801714-17766.jpg?w=996",
+      "recipe_id": 2,
+      "name": "Baked Mac and Cheese",
+      "short_description": "Classic baked macaroni and cheese with a crispy breadcrumb topping.",
+      "ingredients": [
+        "macaroni",
+        "cheddar cheese",
+        "milk",
+        "butter",
+        "flour",
+        "breadcrumbs",
+        "parmesan cheese",
+        "black pepper"
+      ],
+      "preparing_time": 40,
+      "calories": 500
+    },
+    {
+      "recipe_img": "https://img.freepik.com/free-photo/top-view-fried-potatoes-inside-pan-with-different-seasonings-vegetables-dark-background_140725-126807.jpg?t=st=1729663115~exp=1729666715~hmac=f1714374f66fea79aaef5fc65a395d2366476238a5c702256e12615624a8b4d6&w=826",
+      "recipe_id": 3,
+      "name": "Chicken Fajitas",
+      "short_description": "Sizzling chicken fajitas with bell peppers and onions, served with tortillas.",
+      "ingredients": [
+        "chicken breast",
+        "bell peppers",
+        "onions",
+        "tortillas",
+        "lime",
+        "cilantro",
+        "fajita seasoning",
+        "sour cream"
+      ],
+      "preparing_time": 25,
+      "calories": 450
+    },
+    {
+      "recipe_img": "https://img.freepik.com/free-photo/top-view-vegetable-chicken-salad-with-tomatoes-greens-light-desk_140725-76386.jpg?ga=GA1.1.1974064280.1729565945&semt=ais_hybrid",
+      "recipe_id": 4,
+      "name": "Vegetarian Pizza",
+      "short_description": "A homemade pizza loaded with fresh vegetables and mozzarella cheese.",
+      "ingredients": [
+        "pizza dough",
+        "tomato sauce",
+        "mozzarella cheese",
+        "bell peppers",
+        "onions",
+        "mushrooms",
+        "black olives",
+        "basil"
+      ],
+      "preparing_time": 35,
+      "calories": 400
+    },
+    {
+      "recipe_img": "https://img.freepik.com/premium-photo/pizza-with-lot-toppings-it_1277187-37950.jpg?w=826",
+      "recipe_id": 5,
+      "name": "Mango Smoothie",
+      "short_description": "A refreshing mango smoothie blended with yogurt and honey.",
+      "ingredients": [
+        "mango",
+        "Greek yogurt",
+        "honey",
+        "almond milk",
+        "chia seeds",
+        "ice cubes",
+        "vanilla extract",
+        "lime"
+      ],
+      "preparing_time": 5,
+      "calories": 250
+    },
+    {
+      "recipe_img": "https://t3.ftcdn.net/jpg/09/02/70/48/240_F_902704866_vodnmUUPUVfUmH3YlM6zvOpE7ftMG5ek.jpg",
+      "recipe_id": 6,
+      "name": "Beef Stroganoff",
+      "short_description": "Tender beef strips in a creamy mushroom sauce served over egg noodles.",
+      "ingredients": [
+        "beef strips",
+        "mushrooms",
+        "onion",
+        "garlic",
+        "sour cream",
+        "beef broth",
+        "egg noodles",
+        "parsley"
+      ],
+      "preparing_time": 45,
+      "calories": 600
+    }
+  ]
+  
