@@ -1,0 +1,12 @@
+.nav a {
+    margin-right: 20px;
+}
+
+.nav a.active{
+    text-decoration: underline;
+    color: white;
+    background-color: rgb(14, 156, 1);
+    font-size: 18px;
+    padding: 8px;
+    border-radius: 15px;
+}
