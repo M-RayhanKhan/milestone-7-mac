@@ -10,7 +10,7 @@ const Sidebar = ({
     return (
         <div className="lg:w-1/3 border">
             <div className="overflow-x-auto border-b mx-1">
-                <h3 className="text-center">Went to cook: {recipes.length}</h3>
+                <h3 className="text-center text-3xl font-semibold">Went to cook: {recipes.length}</h3>
                 <table className="table">
                     {/* head */}
                     <thead>
