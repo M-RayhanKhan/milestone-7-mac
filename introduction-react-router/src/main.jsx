@@ -15,6 +15,8 @@ import UserDetails from './componets/UserDetails/UserDetails';
 import Posts from './componets/Posts/Posts';
 import PostDetails from './componets/PostDetails/PostDetails';
 import ErrorPages from './componets/ErrorPages/ErrorPages';
+import Meals from './componets/Meals/Meals';
+import MealDetails from './componets/MealDetails/MealDetails';
 
 
 
@@ -31,6 +33,11 @@ const router = createBrowserRouter([
      {
       path: '/contact',
       element: <Contact></Contact>
+     },
+     {
+      path: '/meals',
+      loader: () => fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=a`),
+      element: <Meals></Meals>
      },
      {
       path: '/users',
@@ -51,6 +58,11 @@ const router = createBrowserRouter([
       path: '/post/:postId',
       loader: ({params}) => fetch(`https://jsonplaceholder.typicode.com/posts/${params.postId}`),
       element: <PostDetails></PostDetails>
+     },
+     {
+      path: '/mealDetails/:mealDetails',
+      loader: ({params}) => fetch(`https://www.themealdb.com/api/json/v1/1/lookup.php?i=${params.mealDetails}`),
+      element: <MealDetails></MealDetails>
      }
     ]
   }

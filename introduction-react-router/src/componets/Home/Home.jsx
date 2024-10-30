@@ -4,9 +4,9 @@ import Footer from "../Footer/Footer";
 
 const Home = () => {
     const navigation = useNavigation()
-    const location = useLocation()
+    // const location = useLocation()
     // console.log(navigation);
-    console.log(location);
+    // console.log(location);
     return (
         <div>
             <Navbar></Navbar>
