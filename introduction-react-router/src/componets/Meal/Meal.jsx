@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import './Meal.css'
 const Meal = ({meal}) => {
+    console.log(meal);
     const {idMeal,strArea , strTags,strIngredient1,strMealThumb
     } = meal
     return (

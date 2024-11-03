@@ -1,0 +1,10 @@
+.grandpa  div, .grandpa {
+    border: 1px solid salmon;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.flex {
+    display: flex;
+}

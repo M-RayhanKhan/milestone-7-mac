@@ -3,7 +3,7 @@ import Post from "../Post/Post";
 
 const Posts = () => {
     const posts = useLoaderData();
-
+   
     return (
         <div>
             <h2>Posts load data: {posts.length}</h2>
